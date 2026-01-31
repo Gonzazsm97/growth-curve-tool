@@ -15,11 +15,13 @@ Your input file must be a `.csv` with at least the following columns:
 4. **Sample Type:** The name of the cell line or condition (e.g., WT, KO, Tet+).
 
 **Example CSV Structure:**
+```csv
 CellLine, Day, Replicate, Count, Heme_Conc
 WT,       0,   1,         5.0,   0
 WT,       0,   2,         4.8,   5
 KO,       1,   1,         10.5,  25
 ...
+```
 
 ## How to Use
 
